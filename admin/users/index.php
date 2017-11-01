@@ -45,8 +45,7 @@ $i = 1; // initialize count value
                 <?php Flash(); // display flash message ?>
 
                 <h1>
-                    Bus Warehouse
-                    <a href="add.php" class="btn btn-info pull-right">Add Bus</a>
+                    Users List
                 </h1><br>
                 
                 <table id="example" class="display table" cellspacing="0" width="100%">
