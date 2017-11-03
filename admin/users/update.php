@@ -52,9 +52,8 @@ $user = $db->getID($id, 'users');
                     <div class="form-group">
                         <label>Role</label>
                         <select name="role" class="form-control">
-                            <option value="<?php echo $user['role']; ?>"><?php echo $user['role']; ?></option>
-                            <option value="user">User</option>
-                            <option value="admin">Admin</option>
+                            <option value="user" <?php if($user['role']=="user") echo "selected"; ?>>User</option>
+                            <option value="admin" <?php if($user['role']=="admin") echo "selected"; ?>>Admin</option>
                         </select>
                     </div>
 
