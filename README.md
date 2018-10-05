@@ -4,7 +4,11 @@ A Web Boilerplate for admin complete with authentication and list of available u
 
 ## Getting Started
 
-Just clone this project into your web server then import the .sql file for the users database and its done.
+1) Clone this project into your web server
+2) Import the .sql file for the user database.
+3) Edit config.php, specify your DB settings and project root.
+4) Head to your-folder-name/admin and voila !
+5) Start Coding.
 
 ### Prerequisites
 
